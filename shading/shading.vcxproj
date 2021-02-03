@@ -148,6 +148,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="shaders\fragment_shader.glsl" />
+    <None Include="shaders\screen_fs.glsl" />
+    <None Include="shaders\screen_vs.glsl" />
     <None Include="shaders\vertex_shader.glsl" />
   </ItemGroup>
   <ItemGroup>

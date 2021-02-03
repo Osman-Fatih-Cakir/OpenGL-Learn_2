@@ -18,6 +18,5 @@ void main()
 	gl_Position = projection * modelview * vec4(position, 1.0f);
 
 	fNormal = mat3(normal_matrix) * vNormal;  // Multiply with normal matrix (in case of non-uniform scaling)
-	fPos = vec3(modelview * vec4(position, 1.0f)); 
-	fNormal = vNormal;
+	fPos = vec3(modelview * vec4(position, 1.0f));
 }
