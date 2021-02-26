@@ -11,6 +11,9 @@
       <AdditionalLibraryDirectories>$(SolutionDir)Glew and Glut\freeglut\lib;$(SolutionDir)Glew and Glut\glew-1.11.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>freeglut.lib;glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <Lib>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Lib>
   </ItemDefinitionGroup>
   <ItemGroup />
 </Project>
