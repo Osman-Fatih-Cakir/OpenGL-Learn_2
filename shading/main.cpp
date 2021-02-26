@@ -564,7 +564,6 @@ void render()
 	glUseProgram(screen_shader_program); // Activate post-process shaders
 	
 	glUniform1i(blur_loc, (int)is_blur); // Toogle blur
-	std::cout << (int)is_blur << std::endl;
 
 	draw_quad(); // Draw screen quad (textured)
 
