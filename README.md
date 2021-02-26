@@ -1,3 +1,6 @@
+NOTE: For run the project, you have to change the solution platform to x86.
+
+The topics about the project:
 - Import a teapot model
 - Apply Phong (Blinn-Phong) shading
 - Anti-alising enable/disable (Multisampled AA)
