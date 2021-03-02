@@ -5,7 +5,7 @@
   <PropertyGroup />
   <ItemDefinitionGroup>
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)Glew and Glut\freeglut\include;$(SolutionDir)Glew and Glut\glew-1.11.0\include;$(SolutionDir)glm;$(SolutionDir)shading;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Glew and Glut\freeglut\include;$(SolutionDir)Glew and Glut\glew-1.11.0\include;$(SolutionDir)glm;$(SolutionDir)stb-master;$(SolutionDir)shading;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>$(SolutionDir)Glew and Glut\freeglut\lib;$(SolutionDir)Glew and Glut\glew-1.11.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>

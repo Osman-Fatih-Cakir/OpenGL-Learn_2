@@ -7,9 +7,6 @@ uniform mat4 projection;
 uniform mat4 modelview;
 uniform mat4 normal_matrix;
 
-uniform vec3 translation;
-uniform vec3 rotation;
-
 out vec3 fNormal;
 out vec3 fPos;
 

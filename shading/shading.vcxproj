@@ -151,6 +151,8 @@
     <ClCompile Include="shaders.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="shaders\normal_map_fs.glsl" />
+    <None Include="shaders\normal_map_vs.glsl" />
     <None Include="shaders\fragment_shader.glsl" />
     <None Include="shaders\screen_fs.glsl" />
     <None Include="shaders\screen_vs.glsl" />
